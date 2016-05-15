@@ -1,3 +1,3 @@
 # Journal
 
-//A journal app built with Bootstrap and a some JQuery plugins.  
+A journal app built with Bootstrap and a few JQuery plugins.  
