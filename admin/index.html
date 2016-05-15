@@ -9,7 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/app.css">      
+    <link rel="stylesheet" type="text/css" href="css/app.css"> 
+    <link rel="stylesheet" type="text/css" href="css/index.css">     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -114,24 +115,196 @@
                     <a href="#">
                       <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
                       <span class="label label-warning">3</span>
+                    </a>
                   </li>
                   
                    <li class="fixed-width">
                     <a href="#">
                       <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
                       <span class="label label-message">3</span>
+                    </a>
                   </li>
 
                    <li>
                     <a href="#" class="logout">
                       <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
                      log out
+                    </a>
                   </li>
-
                 </ul>
               </div>
             </header>
           </div>
+
+          <div class="dashboard-container">
+            <div class="row">
+              <div class="col-md-6 dashboard-left-cell">
+                <div class="admin-content-container">
+                  <header class="clearfix">
+                    <h5 class="pull-left">Articles</h5>
+                    <a class="btn btn-xs btn-primary pull-right" href="#" role="button">Create new article</a>
+                  </header>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>title</th>
+                        <th>replies</th>
+                        <th>date</th>
+                        <th>actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>The first post of many...</td>
+                        <td>8</td>
+                        <td>3 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">Edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">View</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>The first post of many...</td>
+                        <td>8</td>
+                        <td>3 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">Edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">View</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>The first post of many...</td>
+                        <td>8</td>
+                        <td>3 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">Edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">View</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>The first post of many...</td>
+                        <td>8</td>
+                        <td>3 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">Edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">View</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>The first post of many...</td>
+                        <td>8</td>
+                        <td>3 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">Edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">View</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">Delete</a>
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                  <div class="clearfix">
+                    <a href="#" class="pull-right text-link">view all articles</a>
+                  </div>
+
+                </div>
+              </div>
+              
+              <div class="col-md-6 dashboard-right-cell">
+                <div class="admin-content-container">
+                  <header>
+                    <h5>User Comments</h5>
+                  </header>
+                  <div class="comment-head-dash clearfix">
+                    <div class="user-name-dash pull-left">Kamaljit Chohan</div>
+                    <div class="days-dash pull-right">2 days ago</div>
+                  </div>
+                  <p class="comment-dash">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.      
+                  </p>
+                  <small class="comment-date-dash">Today 7:02pm 14/05/2016</small>
+                  <hr>
+
+                   <div class="comment-head-dash clearfix">
+                    <div class="user-name-dash pull-left">Kamaljit Chohan</div>
+                    <div class="days-dash pull-right">2 days ago</div>
+                  </div>
+                  <p class="comment-dash">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.      
+                  </p>
+                  <small class="comment-date-dash">Today 7:02pm 14/05/2016</small>
+                  <hr>
+
+                 <div class="clearfix">
+                    <a href="#" class="pull-right text-link">view all comments</a>
+                 </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <div class="admin-content-container clearfix">
+                  <header>
+                    <h5>Users</h5>
+                  </header>
+
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Created</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Kamaljit Chohan</td>
+                        <td>kamaljit.kchohan@gmail.com</td>
+                        <td><a href="#" class="label label-default">Pending</a></td>
+                        <td>Today 7:26pm - 14/05/2016</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                       <tr>
+                        <td>2</td>
+                        <td>Kamaljit Chohan</td>
+                        <td>kamaljit.kchohan@gmail.com</td>
+                        <td><a href="#" class="label label-success">Active</a></td>
+                        <td>Today 7:26pm - 14/05/2016</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Kamaljit Chohan</td>
+                        <td>kamaljit.kchohan@gmail.com</td>
+                        <td><a href="#" class="label label-success">Active</a></td>
+                        <td>Today 7:26pm - 14/05/2016</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Kamaljit Chohan</td>
+                        <td>kamaljit.kchohan@gmail.com</td>
+                        <td><a href="#" class="label label-success">Active</a></td>
+                        <td>Today 7:26pm - 14/05/2016</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+              </div>
+            </div>
 
           <div class="row">
             <footer id="admin-footer" class="clearfix">

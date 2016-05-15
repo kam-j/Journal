@@ -4,12 +4,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Approved Comments</title>
+		<title>Users</title>
 
 		<!-- Bootstrap CSS -->
 		<link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/app.css">
-		<link rel="stylesheet" type="text/css" href="css/comments.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,8 +18,8 @@
 		<![endif]-->
 	</head>
 	<body>
-
-			<div class="container-fluid display-table">
+		
+		<div class="container-fluid display-table">
 	      <div class="row display-table-row">
 	        <!--SIDE MENU-->
 	        <div class="col-md-2 col-sm-1 hidden-xs display-table-cell valign-top" id="side-menu">
@@ -46,7 +45,7 @@
 	              </ul>
 	            </li>
 
-	              <li class="link active">
+	              <li class="link">
 	              <a href="#collapse-comments" data-toggle="collapse" aria-controls="collapse-comments">
 	                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 	                <span class="hidden-sm hidden-xs">Comments</span>
@@ -66,7 +65,7 @@
 	              </ul>
 	            </li>
 
-	              <li class="link">
+	              <li class="link active">
 	              <a href="users.html">
 	                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 	                <span class="hidden-sm hidden-xs">Users</span>
@@ -136,103 +135,40 @@
 
 	          <div id="content">
 	            <header class="clearfix">
-	              <h2 class="page_title pull-left">Approved Comments</h2>
-	              <button type="button" class="btn btn-xs btn-primary pull-right">Create new article</button>
+	              <div class="col-xs-5 col-sm-3 col-md-3"><strong>All users</strong></div>
+	              <div class="col-xs-7 col-sm-9 col-md-9">
+	              	<button type="button" class="btn btn-xs btn-primary pull-right">Create new article</button>
+	              </div>
 	            </header>
 
 	            <div class="content-inner">
-	          		<div class="row search-row">
-	          			<div class="col-md-12">
-	          				<div class="input-group">
-	          					<input type="text" class="form-control search-field" id="search" placeholder="Search">
-	          					<span class="input-group-btn">
-	          						<button type="button" class="btn btn-primary go">Go!</button>
-	          					</span>
-	          				</div>	
-	          			</div>
-	          		</div>
-
-				<div class="row comments-row">
-					<div class="col-sm-2 col-md-1">
-					  	<img class="img-circle hidden-xs" src="https://api.fnkr.net/testimg/70x70/00CED1/FFF/?text=70x70">   		
-					</div>
-
-					<div class="col-sm-10 col-md-11">
-					    <div class="row">
-					       		<div class="col-xs-9 col-sm-10 col-md-9">
-					       			<strong>kamaljit chohan </strong>posted message on <strong>How all things are made...</strong><br>
-					       			<small>Today 2:28 pm - 05/12/2016</small>		
-					       		</div>	     
-
-					       		<div class="col-xs-3 col-sm-2 col-md-3">
-					       			<div class="clearfix">
-					       				<div class="pull-right comment-age">2 days ago</div>
-					       			</div>		
-					       		</div> 	
-					    </div> 
-					    <div class="well well-sm comments-well">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.      	
-						</div>	
-						<div class="clearfix">
-							<div class="pull-right">
-								<a class="btn btn-xs btn-default" href="#" role="button">
-									<span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
-									Reject
-								</a>
-								<div class="pull-right">
-									<a class="btn btn-xs btn-default" href="#" role="button">
-										<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-									Delete
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="row comments-row">
-					<div class="col-sm-2 col-md-1">
-					  	<img class="img-circle hidden-xs" src="https://api.fnkr.net/testimg/70x70/00CED1/FFF/?text=70x70">   		
-					</div>
-
-					<div class="col-sm-10 col-md-11">
-					    <div class="row">
-					       		<div class="col-xs-9 col-sm-10 col-md-9">
-					       			<strong>kamaljit chohan </strong>posted message on <strong>How all things are made...</strong><br>
-					       			<small>Today 2:28 pm - 05/12/2016</small>		
-					       		</div>	     
-
-					       		<div class="col-xs-3 col-sm-2 col-md-3">
-					       			<div class="clearfix">
-					       				<div class="pull-right comment-age">2 days ago</div>
-					       			</div>		
-					       		</div> 	
-					    </div> 
-					    <div class="well well-sm comments-well">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.      	
-						</div>	
-						<div class="clearfix">
-							<div class="pull-right">
-								<a class="btn btn-xs btn-default" href="#" role="button">
-									<span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
-									Reject
-								</a>
-								<div class="pull-right">
-									<a class="btn btn-xs btn-default" href="#" role="button">
-										<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-									Delete
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-	       
+	      			<table class="table table-hover">
+	      			 	<thead>
+	      			 		<tr>
+	      			 			<th>#</th>
+	      			 			<th>Full Name</th>
+	      			 			<th>Email</th>
+	      			 			<th>Status</th>
+	      			 			<th class="hidden-xs">Created</th>
+	      			 		</tr>
+	      			 	</thead>
+	      			 	<tbody>
+	      			 		<tr>
+	      			 			<td>1</td>
+	      			 			<td>Kamaljit Chohan</td>
+	      			 			<td>kamaljit.kchohan@gmail.com</td>
+	      			 			<td><span class="label label-success">active</span></td>
+	      			 			<td class="hidden-xs">14-05-2016</td>
+	      			 		</tr>
+	      			 		<tr>
+	      			 			<td>2</td>
+	      			 			<td>Jane Doe</td>
+	      			 			<td>jane.doe@gmail.com</td>
+	      			 			<td><span class="label label-warning">inactive</span></td>
+	      			 			<td class="hidden-xs">06-06-2016</td>
+	      			 		</tr>
+	      			 	</tbody>
+	      			 </table> 
 	          	</div>
 
 
@@ -247,8 +183,9 @@
 	    </div>
 	    </div>
 	</div>
+
 		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/https:/code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</body>
